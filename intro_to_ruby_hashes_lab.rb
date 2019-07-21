@@ -39,8 +39,8 @@ end
 def update_counting_hash(hash, key)
   hash {
     :apple =>5
-    :orange => 2
-    :pear =>
+    :orange =>2
+    :pear =>3
   }
 
   if hash[key]
